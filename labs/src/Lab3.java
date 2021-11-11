@@ -20,17 +20,17 @@ public class Lab3 {
         System.out.println("Liczby parzyste = " + ileParzystych(tab));
         System.out.println("Liczby dodatnie = " + ileDodatnich(tab));
         System.out.println("Liczby ujemne = " + ileUjemnych(tab));
-        System.out.println("Liczby zerowe = " + ileZerowychint(tab));
+        System.out.println("Liczby zerowe = " + ileZerowych(tab));
         int tab2[] = {5,3,-2,3,5,6,2,-5,3,4,5};
         System.out.println("Liczby maksymalne = " + ileMaksymalnych(tab));
         System.out.println("Suma liczb dodatnich = " + sumaDodatnich(tab));
         System.out.println("Suma liczb ujemnych = " + sumaUjemnych(tab));
-        System.out.println("Dlugość maksymalnego ciągu liczb dodatnich = " + dlugoscMMaksymalnegoCiaguDodatnich(tab2));
+        System.out.println("Dlugość maksymalnego ciągu liczb dodatnich = " + dlugoscMaksymalnegoCiaguDodatnich(tab2));
         signum(tab);
         System.out.println("Signum = " + Arrays.toString(tab));
         odwrocFragment(tab,1,2);
         System.out.println("Odwrócone = " + Arrays.toString(tab));
-         */
+        */
 
         System.out.println("Podaj 3 liczby z przediału [1;10]");
         int m = scan.nextInt();
@@ -117,7 +117,7 @@ public class Lab3 {
         return ile;
     }
 
-    public static int ileZerowychint(int tab[]) {
+    public static int ileZerowych(int tab[]) {
         int ile = 0;
         for (int i = 0; i < tab.length; i++) {
             if (tab[i] == 0)
@@ -156,7 +156,7 @@ public class Lab3 {
         return suma;
     }
 
-    public static int dlugoscMMaksymalnegoCiaguDodatnich(int tab[]) {
+    public static int dlugoscMaksymalnegoCiaguDodatnich(int tab[]) {
         int max = 0;
         int temp = 0;
         for (int i = 0; i < tab.length; i++) {
