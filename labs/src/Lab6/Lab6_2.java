@@ -1,5 +1,6 @@
 public class Lab6_2 {
     public static void main(String[] args) {
+        // ZAD 2
         IntegerSet a = new IntegerSet();
         IntegerSet b = new IntegerSet();
         a.insertElement(1);
