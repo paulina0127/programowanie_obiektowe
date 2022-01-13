@@ -26,19 +26,24 @@ public class Lab5 {
     public static ArrayList<Integer> merge(ArrayList<Integer> a, ArrayList<Integer> b) {
         ArrayList<Integer> lista = new ArrayList<Integer>();
         ArrayList<Integer> s;
+        ArrayList<Integer> x;
         int i = 0;
 
-        if (a.size() > b.size())
+        if (a.size() > b.size()) {
             s = b;
-        else
+            x = a;
+        }
+        else {
             s = a;
+            x = b;
+        }
 
-        for (i = 0; i < s.size() - 1; i++) {
+        for (i = 0; i < s.size(); i++) {
             lista.add(a.get(i));
             lista.add(b.get(i));
         }
 
-        lista.addAll(s.subList(i, s.size()));
+        lista.addAll(x.subList(i, x.size()));
         return lista;
     }
 
