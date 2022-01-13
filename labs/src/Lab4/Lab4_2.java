@@ -4,6 +4,7 @@ import java.io.FileNotFoundException;
 
 public class Lab4_2 {
     public static void main(String[] args) throws FileNotFoundException {
+        // ZAD 2
         Scanner file = new Scanner(new File("E:/" + args[0] + ""));
         int cnt = 0;
 
