@@ -6,10 +6,19 @@ public class Lab5 {
     public static void main(String[] args) {
         ArrayList<Integer> a = new ArrayList<Integer>(Arrays.asList(1, 4, 9, 16));
         ArrayList<Integer> b = new ArrayList<Integer>(Arrays.asList(9, 7, 4, 9, 11));
+        // ZAD 1
         //System.out.println(append(a,b));
+        
+        // ZAD 2
         //System.out.println(merge(a,b));
+        
+        // ZAD 3
         //System.out.println(mergeSorted(a,b));
+        
+        // ZAD 4
         //System.out.println(reversed(a));
+        
+        // ZAD 5
         reverse(a);
         System.out.println(a);
     }
