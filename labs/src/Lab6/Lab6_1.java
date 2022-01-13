@@ -1,5 +1,6 @@
 public class Lab6_1 {
     public static void main(String[] args) {
+        // ZAD 1
         RachunekBankowy saver1 = new RachunekBankowy(2000.00);
         RachunekBankowy saver2 = new RachunekBankowy(3000.00);
 
