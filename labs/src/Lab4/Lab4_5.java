@@ -3,6 +3,7 @@ import java.math.RoundingMode;
 
 public class Lab4_5 {
     public static void main(String[] args) {
+        // ZAD 5
         BigDecimal K = new BigDecimal("0");
         BigDecimal k = new BigDecimal(args[0]);
         BigDecimal p = new BigDecimal(args[1]);
