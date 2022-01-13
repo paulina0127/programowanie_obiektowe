@@ -3,6 +3,7 @@ import java.time.*;
 
 public class Lab8_1 {
     public static void main(String[] args) {
+        // ZAD 1
         Osoba1[] ludzie = new Osoba1[2];
         String[] imiona = new String[]{"Jan"};
 
