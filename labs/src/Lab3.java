@@ -5,7 +5,8 @@ import java.util.Random;
 public class Lab3 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        /*
+        /* 
+        // ZAD 2
         System.out.println("Podaj dodatnią liczbę n nie większą niż 100.");
         int n = scan.nextInt();
         while (n < 0 || n > 100) {
@@ -31,7 +32,8 @@ public class Lab3 {
         odwrocFragment(tab,1,2);
         System.out.println("Odwrócone = " + Arrays.toString(tab));
         */
-
+        
+        // ZAD 3
         System.out.println("Podaj 3 liczby z przediału [1;10]");
         int m = scan.nextInt();
         int n = scan.nextInt();
