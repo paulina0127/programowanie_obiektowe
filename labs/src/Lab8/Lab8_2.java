@@ -4,6 +4,7 @@ import java.time.*;
 
 public class Lab8_2 {
     public static void main(String[] args) {
+        // ZAD 3
         ArrayList<Instrument> orkiestra = new ArrayList<>();
 
         orkiestra.add(new Flet("Metro", LocalDate.of(1995, 10, 15)));
