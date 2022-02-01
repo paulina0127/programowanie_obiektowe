@@ -24,7 +24,7 @@ public class Z3 {
             else if (x.isFile() && y.isDirectory())
                 return -1;
             else
-                return x.getName().compareTo(y.getName());
+                return x.compareTo(y);
         };
         Arrays.sort(files, comparator);
     }
